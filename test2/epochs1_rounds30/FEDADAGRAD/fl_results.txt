@@ -1,0 +1,327 @@
+2026-04-23 09:16:14,087 - DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2026-04-23 09:16:14,089 - Starting Flower server, config: num_rounds=30, no round_timeout
+2026-04-23 09:16:14,101 - Flower ECE: gRPC server running (30 rounds), SSL is disabled
+2026-04-23 09:16:14,101 - [INIT]
+2026-04-23 09:16:14,102 - Using initial global parameters provided by strategy
+2026-04-23 09:16:14,102 - Starting evaluation of initial global parameters
+2026-04-23 09:16:14,102 - Evaluation returned no results (`None`)
+2026-04-23 09:16:14,102 - 
+2026-04-23 09:16:14,102 - [ROUND 1]
+2026-04-23 09:16:53,293 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:55,059 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:55,061 - No fit_metrics_aggregation_fn provided
+2026-04-23 09:16:55,063 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:55,448 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:55,448 - Round Results - Accuracy: 0.6477, Recall: 0.8444
+2026-04-23 09:16:55,449 - 
+2026-04-23 09:16:55,449 - [ROUND 2]
+2026-04-23 09:16:55,449 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:55,596 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:55,598 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:55,727 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:55,727 - Round Results - Accuracy: 0.8813, Recall: 0.2511
+2026-04-23 09:16:55,728 - 
+2026-04-23 09:16:55,728 - [ROUND 3]
+2026-04-23 09:16:55,728 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:55,869 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:55,872 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:55,997 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:55,998 - Round Results - Accuracy: 0.8561, Recall: 0.4764
+2026-04-23 09:16:55,998 - 
+2026-04-23 09:16:55,998 - [ROUND 4]
+2026-04-23 09:16:55,998 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:56,142 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:56,145 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:56,275 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:56,275 - Round Results - Accuracy: 0.7019, Recall: 0.8901
+2026-04-23 09:16:56,275 - 
+2026-04-23 09:16:56,275 - [ROUND 5]
+2026-04-23 09:16:56,275 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:56,445 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:56,448 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:56,573 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:56,578 - Round Results - Accuracy: 0.6654, Recall: 0.9082
+2026-04-23 09:16:56,578 - 
+2026-04-23 09:16:56,578 - [ROUND 6]
+2026-04-23 09:16:56,578 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:56,724 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:56,727 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:56,857 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:56,857 - Round Results - Accuracy: 0.8131, Recall: 0.5540
+2026-04-23 09:16:56,857 - 
+2026-04-23 09:16:56,858 - [ROUND 7]
+2026-04-23 09:16:56,858 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:56,999 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:57,001 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:57,128 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:57,128 - Round Results - Accuracy: 0.8449, Recall: 0.4330
+2026-04-23 09:16:57,128 - 
+2026-04-23 09:16:57,128 - [ROUND 8]
+2026-04-23 09:16:57,128 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:57,269 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:57,273 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:57,401 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:57,401 - Round Results - Accuracy: 0.7869, Recall: 0.7721
+2026-04-23 09:16:57,401 - 
+2026-04-23 09:16:57,401 - [ROUND 9]
+2026-04-23 09:16:57,402 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:57,544 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:57,547 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:57,671 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:57,671 - Round Results - Accuracy: 0.7374, Recall: 0.8546
+2026-04-23 09:16:57,671 - 
+2026-04-23 09:16:57,672 - [ROUND 10]
+2026-04-23 09:16:57,672 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:57,812 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:57,814 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:57,940 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:57,942 - Round Results - Accuracy: 0.7636, Recall: 0.8178
+2026-04-23 09:16:57,942 - 
+2026-04-23 09:16:57,942 - [ROUND 11]
+2026-04-23 09:16:57,942 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:58,094 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:58,097 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:58,223 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:58,223 - Round Results - Accuracy: 0.8178, Recall: 0.7725
+2026-04-23 09:16:58,223 - 
+2026-04-23 09:16:58,223 - [ROUND 12]
+2026-04-23 09:16:58,223 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:58,370 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:58,373 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:58,507 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:58,507 - Round Results - Accuracy: 0.8383, Recall: 0.6339
+2026-04-23 09:16:58,507 - 
+2026-04-23 09:16:58,507 - [ROUND 13]
+2026-04-23 09:16:58,508 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:58,651 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:58,654 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:58,779 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:58,780 - Round Results - Accuracy: 0.8402, Recall: 0.6430
+2026-04-23 09:16:58,780 - 
+2026-04-23 09:16:58,780 - [ROUND 14]
+2026-04-23 09:16:58,780 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:58,919 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:58,922 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,049 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:59,049 - Round Results - Accuracy: 0.8224, Recall: 0.7709
+2026-04-23 09:16:59,049 - 
+2026-04-23 09:16:59,049 - [ROUND 15]
+2026-04-23 09:16:59,049 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,191 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:59,193 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,320 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:59,321 - Round Results - Accuracy: 0.8009, Recall: 0.8179
+2026-04-23 09:16:59,321 - 
+2026-04-23 09:16:59,321 - [ROUND 16]
+2026-04-23 09:16:59,321 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,463 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:59,465 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,589 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:59,589 - Round Results - Accuracy: 0.8112, Recall: 0.7898
+2026-04-23 09:16:59,590 - 
+2026-04-23 09:16:59,590 - [ROUND 17]
+2026-04-23 09:16:59,590 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,728 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:16:59,730 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,857 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:16:59,857 - Round Results - Accuracy: 0.8252, Recall: 0.7807
+2026-04-23 09:16:59,857 - 
+2026-04-23 09:16:59,857 - [ROUND 18]
+2026-04-23 09:16:59,857 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:16:59,997 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:00,000 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:00,126 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:00,126 - Round Results - Accuracy: 0.8280, Recall: 0.7623
+2026-04-23 09:17:00,126 - 
+2026-04-23 09:17:00,126 - [ROUND 19]
+2026-04-23 09:17:00,126 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:00,268 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:00,271 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:00,395 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:00,395 - Round Results - Accuracy: 0.8299, Recall: 0.7440
+2026-04-23 09:17:00,396 - 
+2026-04-23 09:17:00,396 - [ROUND 20]
+2026-04-23 09:17:00,396 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:00,536 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:00,538 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:00,664 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:00,668 - Round Results - Accuracy: 0.8215, Recall: 0.7529
+2026-04-23 09:17:00,668 - 
+2026-04-23 09:17:00,668 - [ROUND 21]
+2026-04-23 09:17:00,668 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:00,813 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:00,815 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:00,945 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:00,946 - Round Results - Accuracy: 0.8159, Recall: 0.7992
+2026-04-23 09:17:00,946 - 
+2026-04-23 09:17:00,946 - [ROUND 22]
+2026-04-23 09:17:00,946 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:01,085 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:01,088 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:01,215 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:01,215 - Round Results - Accuracy: 0.8252, Recall: 0.7617
+2026-04-23 09:17:01,215 - 
+2026-04-23 09:17:01,215 - [ROUND 23]
+2026-04-23 09:17:01,215 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:01,356 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:01,358 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:01,485 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:01,486 - Round Results - Accuracy: 0.8411, Recall: 0.6980
+2026-04-23 09:17:01,486 - 
+2026-04-23 09:17:01,486 - [ROUND 24]
+2026-04-23 09:17:01,486 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:01,629 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:01,631 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:01,754 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:01,755 - Round Results - Accuracy: 0.8243, Recall: 0.7530
+2026-04-23 09:17:01,755 - 
+2026-04-23 09:17:01,755 - [ROUND 25]
+2026-04-23 09:17:01,755 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:01,896 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:01,898 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,026 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:02,026 - Round Results - Accuracy: 0.8131, Recall: 0.8175
+2026-04-23 09:17:02,026 - 
+2026-04-23 09:17:02,026 - [ROUND 26]
+2026-04-23 09:17:02,027 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,167 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:02,170 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,296 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:02,296 - Round Results - Accuracy: 0.8131, Recall: 0.7987
+2026-04-23 09:17:02,296 - 
+2026-04-23 09:17:02,296 - [ROUND 27]
+2026-04-23 09:17:02,297 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,435 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:02,438 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,564 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:02,565 - Round Results - Accuracy: 0.8523, Recall: 0.6985
+2026-04-23 09:17:02,565 - 
+2026-04-23 09:17:02,565 - [ROUND 28]
+2026-04-23 09:17:02,565 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,703 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:02,706 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,834 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:02,834 - Round Results - Accuracy: 0.8318, Recall: 0.7260
+2026-04-23 09:17:02,834 - 
+2026-04-23 09:17:02,834 - [ROUND 29]
+2026-04-23 09:17:02,835 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:02,977 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:02,979 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:03,106 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:03,107 - Round Results - Accuracy: 0.7981, Recall: 0.8546
+2026-04-23 09:17:03,107 - 
+2026-04-23 09:17:03,107 - [ROUND 30]
+2026-04-23 09:17:03,107 - configure_fit: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:03,248 - aggregate_fit: received 5 results and 0 failures
+2026-04-23 09:17:03,251 - configure_evaluate: strategy sampled 5 clients (out of 5)
+2026-04-23 09:17:03,379 - aggregate_evaluate: received 5 results and 0 failures
+2026-04-23 09:17:03,379 - Round Results - Accuracy: 0.8262, Recall: 0.7340
+2026-04-23 09:17:03,379 - 
+2026-04-23 09:17:03,379 - [SUMMARY]
+2026-04-23 09:17:03,380 - Run finished 30 round(s) in 49.29s
+2026-04-23 09:17:03,380 - 	History (loss, distributed):
+2026-04-23 09:17:03,380 - 		round 1: 4.928491439997593
+2026-04-23 09:17:03,381 - 		round 2: 1.3025904645151067
+2026-04-23 09:17:03,381 - 		round 3: 0.7315291628380802
+2026-04-23 09:17:03,381 - 		round 4: 1.3703778116502494
+2026-04-23 09:17:03,381 - 		round 5: 1.261242215154327
+2026-04-23 09:17:03,381 - 		round 6: 0.4518359280078211
+2026-04-23 09:17:03,381 - 		round 7: 0.34791663190193267
+2026-04-23 09:17:03,381 - 		round 8: 0.42846577624294246
+2026-04-23 09:17:03,381 - 		round 9: 0.627263912530703
+2026-04-23 09:17:03,381 - 		round 10: 0.5397579153007436
+2026-04-23 09:17:03,381 - 		round 11: 0.37448397521103655
+2026-04-23 09:17:03,381 - 		round 12: 0.3119670546500482
+2026-04-23 09:17:03,382 - 		round 13: 0.3001024202904969
+2026-04-23 09:17:03,382 - 		round 14: 0.3375421520148482
+2026-04-23 09:17:03,382 - 		round 15: 0.3939496156768264
+2026-04-23 09:17:03,382 - 		round 16: 0.37456777154285215
+2026-04-23 09:17:03,382 - 		round 17: 0.36012048069561753
+2026-04-23 09:17:03,382 - 		round 18: 0.35897544717120233
+2026-04-23 09:17:03,382 - 		round 19: 0.35591022702299546
+2026-04-23 09:17:03,382 - 		round 20: 0.36901549192789557
+2026-04-23 09:17:03,382 - 		round 21: 0.39680112672743395
+2026-04-23 09:17:03,382 - 		round 22: 0.3662988139368663
+2026-04-23 09:17:03,382 - 		round 23: 0.33924137250842334
+2026-04-23 09:17:03,383 - 		round 24: 0.37236581739978253
+2026-04-23 09:17:03,383 - 		round 25: 0.4152649649114252
+2026-04-23 09:17:03,383 - 		round 26: 0.39184152779178083
+2026-04-23 09:17:03,383 - 		round 27: 0.32065885987515763
+2026-04-23 09:17:03,383 - 		round 28: 0.3565161507263362
+2026-04-23 09:17:03,383 - 		round 29: 0.4971162982911707
+2026-04-23 09:17:03,383 - 		round 30: 0.3581791076426194
+2026-04-23 09:17:03,383 - 	History (metrics, distributed, evaluate):
+2026-04-23 09:17:03,383 - 	{'accuracy': [(1, 0.6476635487837212),
+2026-04-23 09:17:03,383 - 	              (2, 0.8813084133317537),
+2026-04-23 09:17:03,383 - 	              (3, 0.8560747622886551),
+2026-04-23 09:17:03,384 - 	              (4, 0.7018691523609875),
+2026-04-23 09:17:03,384 - 	              (5, 0.6654205537287988),
+2026-04-23 09:17:03,384 - 	              (6, 0.8130841151576176),
+2026-04-23 09:17:03,384 - 	              (7, 0.8448598035028048),
+2026-04-23 09:17:03,384 - 	              (8, 0.7869158883518148),
+2026-04-23 09:17:03,384 - 	              (9, 0.7373831752861771),
+2026-04-23 09:17:03,384 - 	              (10, 0.7635514013121061),
+2026-04-23 09:17:03,384 - 	              (11, 0.8177569950295386),
+2026-04-23 09:17:03,384 - 	              (12, 0.8383177501575969),
+2026-04-23 09:17:03,384 - 	              (13, 0.8401869103730282),
+2026-04-23 09:17:03,384 - 	              (14, 0.8224298906103473),
+2026-04-23 09:17:03,384 - 	              (15, 0.8009345760969359),
+2026-04-23 09:17:03,385 - 	              (16, 0.8112149651362517),
+2026-04-23 09:17:03,385 - 	              (17, 0.8252336423530757),
+2026-04-23 09:17:03,385 - 	              (18, 0.8280373875782868),
+2026-04-23 09:17:03,385 - 	              (19, 0.8299065249545552),
+2026-04-23 09:17:03,385 - 	              (20, 0.8214953292196042),
+2026-04-23 09:17:03,385 - 	              (21, 0.8158878533639641),
+2026-04-23 09:17:03,385 - 	              (22, 0.8252336465309713),
+2026-04-23 09:17:03,385 - 	              (23, 0.8411214865256693),
+2026-04-23 09:17:03,385 - 	              (24, 0.8242990521069999),
+2026-04-23 09:17:03,385 - 	              (25, 0.8130841185556394),
+2026-04-23 09:17:03,385 - 	              (26, 0.8130841036266255),
+2026-04-23 09:17:03,386 - 	              (27, 0.852336456731101),
+2026-04-23 09:17:03,386 - 	              (28, 0.8317756938043042),
+2026-04-23 09:17:03,386 - 	              (29, 0.7981308537108875),
+2026-04-23 09:17:03,386 - 	              (30, 0.8261682214023911)],
+2026-04-23 09:17:03,386 - 	 'recall': [(1, 0.8443500561134838),
+2026-04-23 09:17:03,387 - 	            (2, 0.25111665018947327),
+2026-04-23 09:17:03,387 - 	            (3, 0.4764109793388955),
+2026-04-23 09:17:03,387 - 	            (4, 0.8901444459072897),
+2026-04-23 09:17:03,387 - 	            (5, 0.9082230869854722),
+2026-04-23 09:17:03,387 - 	            (6, 0.5539932223402451),
+2026-04-23 09:17:03,387 - 	            (7, 0.4329894545340092),
+2026-04-23 09:17:03,388 - 	            (8, 0.7721143393594528),
+2026-04-23 09:17:03,388 - 	            (9, 0.8546304293325014),
+2026-04-23 09:17:03,388 - 	            (10, 0.8177812935871499),
+2026-04-23 09:17:03,388 - 	            (11, 0.7724905942366502),
+2026-04-23 09:17:03,388 - 	            (12, 0.6338876163848093),
+2026-04-23 09:17:03,388 - 	            (13, 0.6430210096256755),
+2026-04-23 09:17:03,388 - 	            (14, 0.770876333117485),
+2026-04-23 09:17:03,388 - 	            (15, 0.8178601886067435),
+2026-04-23 09:17:03,388 - 	            (16, 0.7898410052339607),
+2026-04-23 09:17:03,388 - 	            (17, 0.7807076119930945),
+2026-04-23 09:17:03,389 - 	            (18, 0.7622830412376707),
+2026-04-23 09:17:03,389 - 	            (19, 0.7440162667325724),
+2026-04-23 09:17:03,389 - 	            (20, 0.7528826372924252),
+2026-04-23 09:17:03,389 - 	            (21, 0.7992474901898999),
+2026-04-23 09:17:03,389 - 	            (22, 0.7617489958756438),
+2026-04-23 09:17:03,389 - 	            (23, 0.6980034005697643),
+2026-04-23 09:17:03,389 - 	            (24, 0.7529615265465228),
+2026-04-23 09:17:03,389 - 	            (25, 0.8175142766716325),
+2026-04-23 09:17:03,389 - 	            (26, 0.7987073700283175),
+2026-04-23 09:17:03,389 - 	            (27, 0.6985374459317911),
+2026-04-23 09:17:03,389 - 	            (28, 0.7260165029318533),
+2026-04-23 09:17:03,390 - 	            (29, 0.8545515281017696),
+2026-04-23 09:17:03,390 - 	            (30, 0.7340029161945681)]}
+2026-04-23 09:17:03,390 - 
