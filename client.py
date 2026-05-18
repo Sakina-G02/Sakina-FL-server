@@ -9,18 +9,18 @@ on subject-specific data, and sends the updated parameters back.
 THE WESAD DATASET:
 The 'WESAD' (Wearable Stress and Affect Detection) dataset is a publicly available 
 dataset containing physiological data from 15 subjects. For the Sakina project, 
-we focus on the following 'Wrist' sensor modalities:[cite: 1]
+we focus on the following 'Wrist' sensor modalities:
 - BVP (Blood Volume Pulse): Used to derive heart rate variations.
 - TEMP (Skin Temperature): Monitored for changes associated with stress responses.
 
 DATA UTILIZATION:
 1. Windowing: The raw data is divided into 60-second windows with a 30-second overlap.
 2. Labeling: We use a majority-label strategy. WESAD label '2' (Stress) is mapped 
-   to 1, while all other states (baseline, amusement, etc.) are mapped to 0.[cite: 2]
+   to 1, while all other states (baseline, amusement, etc.) are mapped to 0.
 3. Feature Extraction: For every window, we calculate 5 key features: BVP (Mean, Std) 
    and Temperature (Mean, Std, Slope).
 4. Balancing: Since stress events are rare, training uses a class weight (10.0 for 
-   stress) to ensure the model prioritizes identifying stress accurately.[cite: 2]
+   stress) to ensure the model prioritizes identifying stress accurately.
 """
 
 import sys
