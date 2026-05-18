@@ -44,19 +44,19 @@ else:
 # Path to WESAD subjects on your local drive
 PKL_PATH = rf"D:\Sakina\model training\Datasets\WESAD\{SUBJECT_ID}\{SUBJECT_ID}.pkl"
 
-# Sakina Project Windowing Logic [cite: 19, 21]
+# Sakina Project Windowing Logic
 WINDOW_SIZE_SEC = 60 
 STEP_SEC = 30
 
 epch = 3 ##################################
 
-# Frequencies for sensor data [cite: 11]
+# Frequencies for sensor data 
 FS_BVP = 64
 FS_TEMP = 4
 FS_LABEL = 700
 
 # ----------------------------
-# ===== YOUR LOGIC TOOLS =====
+# ===== LOGIC =====
 # ----------------------------
 def aggregate_label(win_labels: np.ndarray) -> int:
     """Exactly your majority label strategy for stress detection."""
@@ -131,7 +131,7 @@ class SakinaClient(fl.client.NumPyClient):
             self.y_train, 
             epochs=epch, 
             batch_size=32, 
-            class_weight=class_weight, # Added this
+            class_weight=class_weight, 
             verbose=1
         )
         print(f"--- [{SUBJECT_ID}] Training finished. ---")
@@ -156,14 +156,14 @@ if __name__ == "__main__":
     scaler = StandardScaler()
     X_s = scaler.fit_transform(X)
 
-    # Rebuilding MLP Architecture [cite: 20, 21]
+    # Rebuilding MLP Architecture 
     inputs = tf.keras.Input(shape=(5,))
     x = tf.keras.layers.Dense(64, activation="relu")(inputs)
     x = tf.keras.layers.Dense(32, activation="relu")(x)
     outputs = tf.keras.layers.Dense(1, activation="sigmoid")(x)
     model = tf.keras.Model(inputs=inputs, outputs=outputs)
     
-    # Metrics must match server expectation [cite: 91]
+    # Metrics must match server expectation
     model.compile(
         optimizer="adam", 
         loss="binary_crossentropy", 
